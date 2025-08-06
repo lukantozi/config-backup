@@ -20,3 +20,10 @@ firefox/sessionstore*.jsonlz4
 firefox/datareporting/
 firefox/storage/
 firefox/extension-settings.json
+
+# --- dotfiles extras ---
+shell/zsh/.zsh_history
+**/history
+**/*.key
+**/*.pem
+**/*.crt

@@ -1,0 +1,9 @@
+[Unit]
+Description=XFCE XSettings Daemon
+
+[Service]
+ExecStart=/usr/bin/xfsettingsd
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

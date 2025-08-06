@@ -1,0 +1,11 @@
+[Unit]
+Description=Hyprpaper wallpaper daemon
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/hyprpaper -c /home/styx/.config/hypr/hyprpaper.conf
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
+
