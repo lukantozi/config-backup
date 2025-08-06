@@ -1,0 +1,22 @@
+# generic junk
+**/.DS_Store
+**/*.log
+**/__pycache__/
+**/.cache/
+# nvim compiled/lock files
+nvim/plugin/packer_compiled.lua
+nvim/lazy-lock.json
+# rofi history
+rofi-history
+# waybar logs (if any)
+waybar*.log
+# Firefox secrets / volatile stuff — DO NOT COMMIT
+firefox/logins.json
+firefox/key4.db
+firefox/cookies.sqlite
+firefox/formhistory.sqlite
+firefox/places.sqlite
+firefox/sessionstore*.jsonlz4
+firefox/datareporting/
+firefox/storage/
+firefox/extension-settings.json
