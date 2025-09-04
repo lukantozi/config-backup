@@ -1,0 +1,20 @@
+/* --- Accent override for GTK4/libadwaita --- */
+@define-color accent_color           rgba(112,177,112,0.5);
+@define-color accent_bg_color        rgba(112,177,112,0.5);
+@define-color accent_fg_color        #ffffff;
+
+/* Selected rows/items in lists/grids */
+@define-color view_selected_bg_color rgba(112,177,112,0.5);
+@define-color view_selected_fg_color #ffffff;
+
+/* Text selection */
+textview text selection,
+text selection {
+  background-color: rgba(112,177,112,0.5);
+  color: #ffffff;
+}
+
+/* Focus outlines */
+*:focus { outline-color: rgba(112,177,112,0.5); }
+
+

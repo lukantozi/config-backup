@@ -1,0 +1,28 @@
+/* --- Accent / selection override for GTK3 --- */
+
+/* Define classic selected colors used by many themes */
+@define-color theme_selected_bg_color rgba(112,177,112,0.5);
+@define-color theme_selected_fg_color #ffffff;
+
+@define-color selected_bg_color rgba(112,177,112,0.5);
+@define-color selected_fg_color #ffffff;
+
+/* Generic selection properties (text entries, lists, etc.) */
+* {
+  selection-background-color: rgba(112,177,112,0.5);
+  selection-color: #ffffff;
+}
+
+/* Make sure text selections follow our color in common widgets */
+textview text selection,
+text selection,
+label selection,
+entry selection {
+  background-color: rgba(112,177,112,0.5);
+  color: #ffffff;
+}
+
+/* Focus rings (search bars, focused buttons) */
+*:focus { outline-color: rgba(112,177,112,0.5); }
+
+
